@@ -7,15 +7,18 @@ public class KamarKing extends Kamar{
     private Facility facility;
 
     public KamarKing(){
-
+        getDescription();
     }
     
-    public void booking(){
+    // public void booking(){
 
-    }
+    // }
 
-    public String getDescription(){
-        return description;
+    public void getDescription(){
+        facility = new Facility(false, true, true, true, true);
+        Checking check = new Checking();
+
+        check.IsThereAC(facility.getAC());
     }
 
     public int getPrice(){
@@ -24,6 +27,11 @@ public class KamarKing extends Kamar{
 
     public int getRating(){
         return rating;
+    }
+
+    public static void main(String[] args) {
+        KamarKing kk = new KamarKing();
+
     }
 
 }
