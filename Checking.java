@@ -8,4 +8,6 @@ public class Checking {
             return false;
         }
     }
+
+    public boolean IsThere
 }
