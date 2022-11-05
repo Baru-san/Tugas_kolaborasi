@@ -30,4 +30,31 @@ public class Checking {
             System.out.println("Kamar tidak menyediakan kolam");
         }
     }
+
+    public void IsThereDinner(boolean dinner){
+        if (dinner == true){
+            System.out.println("Menyediakan Makan Malam");
+        }
+        else{
+            System.out.println("Tidak Menyediakan Makan Malam");
+        }
+    }
+
+    public void IsThereWifi(boolean wifi){
+        if(wifi == true){
+            System.out.println("Tersedia wi-fi");
+        }
+        else{
+            System.out.println("Tidak Tersedia Wi-fi");
+        }
+    }
+
+    public void IsThereLunch(boolean lunch){
+        if(lunch == true){
+            System.out.println("Menyediakan Makan Siang");
+        }
+        else{
+            System.out.println("Tidak Menyediakan Makan Siang");
+        }
+    }
 }

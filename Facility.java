@@ -1,11 +1,12 @@
 public class Facility {
     private boolean AC;
     private boolean pool;
+    private boolean lunch;
     private boolean breakfast;
     private boolean dinner;
     private boolean wifi;
 
-    public Facility(boolean AC, boolean pool, boolean breakfast,
+    public Facility(boolean AC, boolean pool, boolean breakfast, boolean lunch,
     boolean dinner, boolean wifi)
     {
         this.AC=AC;
@@ -38,5 +39,9 @@ public class Facility {
     public boolean getWifi()
     {
         return this.wifi;
+    }
+
+    public boolean getLunch(){
+        return this.lunch;
     }
 }
