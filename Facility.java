@@ -5,15 +5,27 @@ public class Facility {
     private boolean breakfast;
     private boolean dinner;
     private boolean wifi;
+    private boolean BedType;
 
     public Facility(boolean AC, boolean pool, boolean breakfast, boolean lunch,
-    boolean dinner, boolean wifi)
+    boolean dinner, boolean wifi) //cons untuk kamar single
     {
         this.AC=AC;
         this.pool=pool;
         this.breakfast=breakfast;
         this.dinner=dinner;
         this.wifi=wifi;
+    }
+
+    public Facility(boolean AC, boolean pool, boolean breakfast, boolean lunch,
+    boolean dinner, boolean wifi, boolean BedType) //cons untuk kamar double
+    {
+        this.AC=AC;
+        this.pool=pool;
+        this.breakfast=breakfast;
+        this.dinner=dinner;
+        this.wifi=wifi;
+        this.BedType=BedType;
     }
     
     public boolean getAC()
@@ -43,5 +55,9 @@ public class Facility {
 
     public boolean getLunch(){
         return this.lunch;
+    }
+
+    public boolean getBedType(){
+        return this.BedType;
     }
 }

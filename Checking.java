@@ -57,4 +57,13 @@ public class Checking {
             System.out.println("Tidak Menyediakan Makan Siang");
         }
     }
+
+    public void CheckBedType(boolean bedtype){
+        if(bedtype == true){
+            System.out.println("Tersedia Dua tempat tidur");
+        }
+        else{
+            System.out.println("Hanya terdapat satu tempat tidur");
+        }
+    }
 }
