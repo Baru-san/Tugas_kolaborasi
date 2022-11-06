@@ -5,7 +5,7 @@ public class kamarIntermediate {
 
     public kamarIntermediate()
     {
-        
+        Description();
     }
 
     public void Description()
