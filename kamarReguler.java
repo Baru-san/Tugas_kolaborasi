@@ -1,11 +1,13 @@
 public class kamarReguler {
-    private int price;
-    private int rating;
+    private int price = 400000;
+    private int rating = 3;
     private Facility facility;
 
     public kamarReguler()
     {
         Description();
+        System.out.println("Harga kamar ini " + getPrice());
+        System.out.println("dengan rating " + getRating());
     }
 
     public void Description()
