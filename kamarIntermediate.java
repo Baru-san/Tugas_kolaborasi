@@ -1,6 +1,6 @@
 public class kamarIntermediate {
-    private int price;
-    private int rating;
+    private int price = 650000;
+    private int rating = 4;
     private Facility facility;
 
     public kamarIntermediate()
