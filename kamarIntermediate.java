@@ -1,11 +1,13 @@
 public class kamarIntermediate {
-    private int price;
-    private int rating;
+    private int price = 650000;
+    private int rating = 4;
     private Facility facility;
 
     public kamarIntermediate()
     {
         Description();
+        System.out.println("Harga kamar ini " + getPrice());
+        System.out.println("dengan rating " + getRating());
     }
 
     public void Description()
