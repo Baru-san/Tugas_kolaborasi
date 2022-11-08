@@ -1,10 +1,12 @@
 public class KamarDeluxeDouble {
-private int price;
-private int rating;
+private int price = 900000;
+private int rating = 5;
 private Facility facility;
 
 public KamarDeluxeDouble(){
     Description();
+    getPrice();
+    getRating();
 }
 
 public void Description(){
