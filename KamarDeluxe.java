@@ -1,7 +1,7 @@
 public class KamarDeluxe extends Kamar{
 
-private int price;
-private int rating;
+private int price = 800000;
+private int rating = 5;
 private Facility facility;
 
 public KamarDeluxe(){
