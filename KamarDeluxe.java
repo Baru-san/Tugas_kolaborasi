@@ -6,6 +6,9 @@ private Facility facility;
 
 public KamarDeluxe(){
     Description();
+    getPrice();
+    getRating();
+
 }
 
 public void Description(){
