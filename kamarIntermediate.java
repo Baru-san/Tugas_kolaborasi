@@ -5,6 +5,7 @@ public class kamarIntermediate {
 
     public kamarIntermediate()
     {
+        System.out.println("\n\nDeskripsi kamar ini:");
         Description();
         System.out.println("Harga kamar ini " + getPrice());
         System.out.println("dengan rating " + getRating());

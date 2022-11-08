@@ -1,4 +1,3 @@
-import java.rmi.server.RemoteRef;
 
 public class KamarKing extends Kamar{
     
@@ -6,10 +5,12 @@ public class KamarKing extends Kamar{
     private int rating = 5;
     private Facility facility;
 
-    public KamarKing(){
+    public KamarKing()
+    {
+        System.out.println("\n\nDeskripsi kamar ini:");
         Description();
-        getPrice();
-        getRating();
+        System.out.println("Harga kamar ini " + getPrice());
+        System.out.println("dengan rating " + getRating());
     }
     
     // public void booking(){

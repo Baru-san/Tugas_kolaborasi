@@ -4,10 +4,12 @@ private int price = 800000;
 private int rating = 5;
 private Facility facility;
 
-public KamarDeluxe(){
+public KamarDeluxe()
+{
+    System.out.println("\n\nDeskripsi kamar ini:");
     Description();
-    getPrice();
-    getRating();
+    System.out.println("Harga kamar ini " + getPrice());
+    System.out.println("dengan rating " + getRating());
 
 }
 
