@@ -1,4 +1,4 @@
-public class kamarReguler {
+public class kamarReguler extends Kamar{
     private int price = 400000;
     private int rating = 3;
     private Facility facility;

@@ -1,4 +1,4 @@
-public class KamarDeluxeDouble {
+public class KamarDeluxeDouble extends KamarDeluxe{
 private int price = 900000;
 private int rating = 5;
 private Facility facility;
