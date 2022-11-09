@@ -12,37 +12,36 @@ public class Mainhotel {
 
     public static void main(String[] args) {
         Scanner In = new Scanner(System.in);
-
+        Menu();
+        int pilihan = 0;
         try {
-            Menu();
-            int pilihan = In.nextInt();
-            switch(pilihan){
-                case 1:
-                kamarReguler reg = new kamarReguler();
-                break;
-
-                case 2:
-                kamarIntermediate inter = new kamarIntermediate();
-                break;
-
-                case 3:
-                KamarDeluxe KD = new KamarDeluxe();
-                break;
-
-                case 4:
-                KamarDeluxeDouble KDdouble = new KamarDeluxeDouble();
-                break;
-
-                case 5:
-                KamarKing king = new KamarKing();
-                break;
-        }
+            pilihan = In.nextInt(); 
         } 
         catch (InputMismatchException e) 
         {
             System.err.println("Tolong masukkan input yang sesuai.");
         }
+        switch(pilihan){
+            case 1:
+            kamarReguler reg = new kamarReguler();
+            break;
 
+            case 2:
+            kamarIntermediate inter = new kamarIntermediate();
+            break;
+
+            case 3:
+            KamarDeluxe KD = new KamarDeluxe();
+            break;
+
+            case 4:
+            KamarDeluxeDouble KDdouble = new KamarDeluxeDouble();
+            break;
+
+            case 5:
+            KamarKing king = new KamarKing();
+            break;
+        }
     In.close();
     }
 }
